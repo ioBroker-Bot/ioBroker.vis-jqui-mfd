@@ -4,3 +4,6 @@ package-lock.json
 widgets/i18n/*/flat.txt
 widgets/i18n/flat.txt
 /.idea
+
+#ignore .commitinfo created by ioBroker release script
+.commitinfo
