@@ -32,11 +32,11 @@
     "jqui-mfd GUI"
   ],
   "devDependencies": {
-    "@alcalzone/release-script": "^3.7.0",
-    "@alcalzone/release-script-plugin-iobroker": "^3.7.0",
-    "@alcalzone/release-script-plugin-license": "^3.7.0",
-    "mocha": "^10.2.0",
-    "chai": "^4.3.10"
+    "@alcalzone/release-script": "^5.0.0",
+    "@alcalzone/release-script-plugin-iobroker": "^4.0.0",
+    "@alcalzone/release-script-plugin-license": "^4.0.0",
+    "@iobroker/eslint-config": "^2.2.0",
+    "@iobroker/testing": "^5.2.2"
   },
   "bugs": {
     "url": "https://github.com/ioBroker/ioBroker.vis-jqui-mfd/issues"
@@ -50,11 +50,14 @@
     "io-package.json"
   ],
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --exit",
+    "test": "mocha --exit",
+    "test:package": "mocha test/package.test.js --exit",
+    "lint": "eslint -c eslint.config.mjs",
     "release": "release-script",
     "release-patch": "release-script patch --yes",
     "release-minor": "release-script minor --yes",
-    "release-major": "release-script major --yes"
+    "release-major": "release-script major --yes",
+    "update-packages": "npx -y npm-check-updates"
   },
   "license": "MIT",
   "dependencies": {}
