@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "vis-jqui-mfd",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "news": {
+      "1.1.3": {
+        "en": "Allowed installation with vis-2 without installing vis-1",
+        "de": "Erlaubte Installation mit vis-2 ohne Installation vis-1",
+        "ru": "Разрешенная установка с vis-2 без установки vis-1",
+        "pt": "Instalação permitida com vis-2 sem instalação vis-1",
+        "nl": "Toegestaan installatie met vis-2 zonder vis-1 te installeren",
+        "fr": "Installation autorisée avec vis-2 sans installation vis-1",
+        "it": "Installazione consentita con vis-2 senza installare vis-1",
+        "es": "Instalación permitida con vis-2 sin instalación vis-1",
+        "pl": "Dopuszczalna instalacja z vis-2 bez instalacji vis-1",
+        "uk": "Допускається установка з вісом-2 без установки вісь-1",
+        "zh-cn": "允许在不安装的情况下安装比对 - 2"
+      },
       "1.1.1": {
         "en": "Make it compatible with ioBroker.vis 2.0",
         "de": "Kompatibel mit ioBroker.vis 2.0",
